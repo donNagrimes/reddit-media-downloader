@@ -1,0 +1,17 @@
+#   https://v.redd.it/abc123/DASH_720?source=fallback
+    for marker in ("DASH_", "dash_"):
+        idx = url.find(marker)
+        if idx != -1:
+            # Replace quality segment with audio token
+            end_idx = url.find(".", idx)
+            if end_idx == -1:
+                end_idx = len(url)
+            prefix = url[:idx]
+            suffix = url[end_idx:]
+            candidate = f"{prefix}DASH_audio{suffix}"
+            logger.debug("Inferred audio URL %s from %s", candidate, source_url)
+            return candidate
+
+    # If no obvious pattern, we give up quietly.
+    logger.debug("Could not infer audio URL from %s", source_url)
+    return None
