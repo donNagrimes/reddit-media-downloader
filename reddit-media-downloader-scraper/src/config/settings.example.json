@@ -1,0 +1,6 @@
+{
+  "reddit": {
+    "user_agent": "RedditMediaDownloader/1.0 (by u/example)",
+    "timeout": 10
+  }
+}
