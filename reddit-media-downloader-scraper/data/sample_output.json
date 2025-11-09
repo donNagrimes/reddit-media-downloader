@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1iic23b/who_said_ai_videos_cant_do_physics/",
+    "result": {
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1iic23b/who_said_ai_videos_cant_do_physics/",
+      "source": "reddit",
+      "title": "Who said AI videos can’t do physics?",
+      "thumbnail": "https://external-preview.redd.it/example_thumbnail.jpg",
+      "medias": [
+        {
+          "type": "video",
+          "quality": "720p",
+          "url": "https://v.redd.it/uxn87kbz5che1/DASH_720.mp4",
+          "extension": "mp4",
+          "info": {
+            "height": 720,
+            "width": 1280,
+            "bitrate_kbps": 2400,
+            "dash_url": "https://v.redd.it/uxn87kbz5che1/DASHPlaylist.mpd"
+          }
+        },
+        {
+          "type": "audio",
+          "quality": "audio",
+          "url": "https://v.redd.it/uxn87kbz5che1/DASH_audio.mp4",
+          "extension": "mp3",
+          "info": {
+            "source": "inferred_from_dash"
+          }
+        }
+      ],
+      "type": "multiple",
+      "error": false,
+      "time_end": 1456
+    }
+  }
+]
